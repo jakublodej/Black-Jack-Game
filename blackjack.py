@@ -211,7 +211,6 @@ while True:
 
     print("\nPlayer's winnings stand at", player_chips.total)
 
-
     new_game = input("\nWould you like to play again ? Enter 'y' or 'n': ")
     if new_game[0].lower() == 'y':
         play = True
